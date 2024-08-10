@@ -1,0 +1,16 @@
+<script>
+    // Tabuada
+    let numero = parseInt(prompt("Informe um número para saber sua tabuada:"));
+
+    if (numero !== 0) {
+        let resultado = "";
+
+        for (let i = 1; i <= 10; i++) {
+            resultado += `${numero} x ${i} = ${numero * i}\n`;
+        }
+
+        alert(resultado);
+    } else {
+        alert("A tabuada de zero não é definida.");
+    }
+</script>
